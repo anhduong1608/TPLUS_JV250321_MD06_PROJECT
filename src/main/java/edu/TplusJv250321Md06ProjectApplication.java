@@ -6,13 +6,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = {
-        "security.config",
-        "security.jwt",
-        "security.principal",
-        "repo",
-        "model.entity"
-})
 public class TplusJv250321Md06ProjectApplication {
 
 
